@@ -12,6 +12,35 @@ img {
   font-weight: 900;
 }
 
+/* added */
+
+.header {  /* This is a bit complex, can be done simpler, see solution */
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 32px;
+}
+
+.items {
+  padding: 0 32px;
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
+}
+
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
